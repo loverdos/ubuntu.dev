@@ -12,7 +12,8 @@ RUN sudo apt-get install -y \
     build-essential make cmake autoconf libtool m4 zlib1g gcc g++ llvm \
     rlwrap \
     libreadline-dev zlib1g-dev libbz2-dev libsqlite3-dev libssl-dev \
-    libncurses5-dev libncursesw5-dev
+    libncurses5-dev libncursesw5-dev \
+    libevent-dev libgmp-dev
 
 # install: linuxbrew
 ADD dev-install-linuxbrew.sh $PLAIN_USER_HOME

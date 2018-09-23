@@ -1,5 +1,6 @@
 [user]
   name = Christos KK Loverdos
+  email = loverdos@gmail.com
   useConfigOnly= true
 [alias]
   st = status --short
